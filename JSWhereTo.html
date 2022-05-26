@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //An vao se thay doi tu cau nay sang cau khac
+        function myFunction1() {
+            document.getElementById("demo1").innerHTML = "Chu sau khi thay doi";
+        }
+    </script>
+</head>
+<body>
+    <h1>1</h1>
+    <p>Thay doi tu cau nay sang cau khac</p>
+    <p id="demo1">Cau truoc khi thay doi</p>
+    <button type="button" onclick="myFunction1()">Doi chu</button>
+
+    <h1>2</h1>
+    <p>Thay doi tu cau nay sang cau khac nhung function duoc viet trong Body</p>
+    <p id="demo2">Cau truoc khi thay doi</p>
+    <button type="button" onclick="myFunction2()">Doi chu</button>
+    <script>
+        function myFunction2() {
+            document.getElementById("demo2").innerHTML = "Cau sau khi thay doi";
+        }
+    </script>
+</body>
+</html>
